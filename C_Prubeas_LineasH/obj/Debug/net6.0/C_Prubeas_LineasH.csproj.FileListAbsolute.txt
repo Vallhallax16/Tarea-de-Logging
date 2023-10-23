@@ -1,0 +1,5 @@
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\C_Prubeas_LineasH\obj\Debug\net6.0\C_Prubeas_LineasH.csproj.AssemblyReference.cache
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\C_Prubeas_LineasH\obj\Debug\net6.0\C_Prubeas_LineasH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\C_Prubeas_LineasH\obj\Debug\net6.0\C_Prubeas_LineasH.AssemblyInfoInputs.cache
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\C_Prubeas_LineasH\obj\Debug\net6.0\C_Prubeas_LineasH.AssemblyInfo.cs
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\C_Prubeas_LineasH\obj\Debug\net6.0\C_Prubeas_LineasH.csproj.CoreCompileInputs.cache

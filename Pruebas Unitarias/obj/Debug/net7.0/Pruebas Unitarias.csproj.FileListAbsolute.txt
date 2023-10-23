@@ -1,0 +1,44 @@
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.exe
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.deps.json
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.runtimeconfig.json
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.dll
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.pdb
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.GeneratedMSBuildEditorConfig.editorconfig
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.AssemblyInfoInputs.cache
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.AssemblyInfo.cs
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.csproj.CoreCompileInputs.cache
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.dll
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\refint\Pruebas Unitarias.dll
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.pdb
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.genruntimeconfig.cache
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\ref\Pruebas Unitarias.dll
+D:\Universidad\7mo semestre\Arquitectura Software\Tarea de pruebas unitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.sourcelink.json
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.exe
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.deps.json
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.runtimeconfig.json
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.dll
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.pdb
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.csproj.AssemblyReference.cache
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.AssemblyInfoInputs.cache
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.AssemblyInfo.cs
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.csproj.CoreCompileInputs.cache
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.dll
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\refint\Pruebas Unitarias.dll
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.pdb
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.genruntimeconfig.cache
+C:\Users\oscar\OneDrive\Documents\Oscar\La Salle\PruebasGit\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\ref\Pruebas Unitarias.dll
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.exe
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.deps.json
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.runtimeconfig.json
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.dll
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\bin\Debug\net7.0\Pruebas Unitarias.pdb
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.AssemblyInfoInputs.cache
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.AssemblyInfo.cs
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.csproj.CoreCompileInputs.cache
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.dll
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\refint\Pruebas Unitarias.dll
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.pdb
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\Pruebas Unitarias.genruntimeconfig.cache
+C:\Users\ana-f\Source\Repos\TareaDePruebasUnitarias\Pruebas Unitarias\obj\Debug\net7.0\ref\Pruebas Unitarias.dll

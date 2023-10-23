@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Prubeas_LineasH\\C_Pruebas_LineasH.csproj": {}
+  },
+  "projects": {
+    "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Prubeas_LineasH\\C_Pruebas_LineasH.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Prubeas_LineasH\\C_Pruebas_LineasH.csproj",
+        "projectName": "C_Pruebas_LineasH",
+        "projectPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Prubeas_LineasH\\C_Pruebas_LineasH.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Prubeas_LineasH\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio Compartidos\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj": {
+                "projectPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj",
+        "projectName": "Pruebas Unitarias",
+        "projectPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio Compartidos\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
