@@ -1,10 +1,23 @@
-﻿using Pruebas_Unitarias;
+﻿using log4net.Config;
+using log4net;
+using Pruebas_Unitarias;
+using System.Reflection;
+using System.IO;
 
 Console.ForegroundColor = ConsoleColor.Cyan;
 
 short opcion = 0;
 
-while(opcion != 4)
+//Obtiene una instancia de Log según el proceso actual en ejecución
+var Inicializar_Logger = LogManager.GetRepository(Assembly.GetEntryAssembly());
+
+//Configuramos la instancia del log según el XML log4net.config
+XmlConfigurator.Configure(Inicializar_Logger, new FileInfo("log4net.config"));
+
+//Iniciamos un logger para este archivo específicamente
+var Logger_iniciado = log4net.LogManager.GetLogger(typeof(Program));
+
+while (opcion != 4)
 {
 	Console.Clear();
 	Console.WriteLine("\nSelecciona una clase a probar:\n");
@@ -18,18 +31,18 @@ while(opcion != 4)
 	switch(opcion)
 	{
 		case 1:
-			CCalculo_De_Descuento cdd = new();
+			CCalculo_De_Descuento calculo_descuento = new();
 
 			Console.Write("\nIntroduce la cantidad de dinero a emplear: ");
-			cdd.Cantidad_vieja = Convert.ToDecimal(Console.ReadLine());
+			calculo_descuento.Cantidad_vieja = Convert.ToDecimal(Console.ReadLine());
 
 			Console.Write("\nIntroduce el descuento a realizar a dicha cantidad: ");
-			cdd.Porcentaje_viejo = Convert.ToInt32(Console.ReadLine());
+			calculo_descuento.Porcentaje_viejo = Convert.ToInt32(Console.ReadLine());
 
 			Console.Write("\nIntroduce el nuevo descuento a realizar a dicha cantidad: ");
 			var nuevo_porcentaje = Convert.ToInt32(Console.ReadLine());
 
-			var resultado = cdd.Comparar_descuentos(cdd.Calculo_Dinero_Descontado(nuevo_porcentaje));
+			var resultado = calculo_descuento.Comparar_descuentos(calculo_descuento.Calculo_Dinero_Descontado(nuevo_porcentaje));
 
 			Console.WriteLine($"\nResultado de la función: {resultado}");
 
@@ -41,7 +54,10 @@ while(opcion != 4)
 			Console.Write("\nIntroduce el numero de iteraciones a realizar: ");
 			var iteraciones = Convert.ToInt32(Console.ReadLine());
 
-			CInteres_Compuesto cic = new(iteraciones);
+			//Reporta el número de iteraciones producidas
+			Logger_iniciado.Debug($"El usuario introdujo {iteraciones} iteraciones");
+
+			CInteres_Compuesto interes_compuesto = new(iteraciones);
 
 			Console.Write("Introduce la cantidad de dinero a invertir: ");
 			var dinero = Convert.ToDecimal(Console.ReadLine());
@@ -49,9 +65,12 @@ while(opcion != 4)
 			Console.Write("Introduce el multiplicador a emplear: ");
 			var multiplicador = Convert.ToDecimal(Console.ReadLine());
 
-			var ganancias = cic.Obtener_Ganancias(multiplicador, dinero);
+			//Reporta las cantidades a enviar al método Obtener Ganancias de la clase CInteres_Compuesto
+			Logger_iniciado.Debug($"El usuario introdujo: Dinero = {dinero:C} Multiplicador = {multiplicador}\n");
 
-			Console.WriteLine($"\nSe obtendrían {ganancias.ToString("C")} de ganancias");
+			var ganancias = interes_compuesto.Obtener_Ganancias(multiplicador, dinero, Logger_iniciado);
+
+			Console.WriteLine($"\nSe obtendrían {ganancias.ToString("C")} de ganancias\n");
 
 			Console.WriteLine("\nPresiona enter para continuar...");
 			Console.ReadKey();
@@ -100,6 +119,8 @@ while(opcion != 4)
 			break;
 
 		default:
+			//Reporta el tipo de opción metió el usuario en el menú para evitar errores
+			Logger_iniciado.Warn($"El usuario introdujo {opcion} en el menú");
 
 			Console.ForegroundColor = ConsoleColor.Red;
 

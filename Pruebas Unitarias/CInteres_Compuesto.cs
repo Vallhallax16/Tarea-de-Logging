@@ -16,7 +16,7 @@ namespace Pruebas_Unitarias
 		}
 
 		//Calcula las ganancias obtenidas según el número de iteraciones, un multiplicador dado y un monto de inversión inicial
-		public decimal Obtener_Ganancias(decimal multiplicador, decimal monto_inicial)
+		public decimal Obtener_Ganancias(decimal multiplicador, decimal monto_inicial, dynamic Logger = null)
 		{
 			decimal interes_compuesto = monto_inicial;
 
@@ -25,7 +25,15 @@ namespace Pruebas_Unitarias
 				interes_compuesto *= multiplicador;
 			}
 
-			return interes_compuesto - monto_inicial;
+			var ganancias = interes_compuesto - monto_inicial;
+
+			//Reporta al desarrollador si el usuario introdujo un multiplicador erroneo
+			if(ganancias <= 0)
+			{
+				Logger.Warn($"El usuario introdujo {multiplicador} puede causar errores\n");
+			}
+
+			return ganancias;
 		}
 
 		public decimal Obtener_Monto_Inicial(decimal multiplicador, decimal a_obtener)
