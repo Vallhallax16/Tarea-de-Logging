@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "mP6MalWxmQc1RQ0Z4lIj/mu4h8ZoE2fH8WJlbe8F+y7lAfpZ6Pdqc2wJiU7CzXs5VcYN/Uw6U4mZRml0t90xdw==",
+  "dgSpecHash": "lFumt4yViI+yJT3YZLcmEyFq5XthfVkINg4zO3tTYI5E8b5np7d2dWPZ7msgWCv/KMGlz0D/tHxRXKE+dKlUdA==",
   "success": true,
   "projectFilePath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\David\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

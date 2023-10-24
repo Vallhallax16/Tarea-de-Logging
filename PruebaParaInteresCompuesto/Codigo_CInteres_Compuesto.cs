@@ -1,10 +1,14 @@
 using Pruebas_Unitarias;
+using log4net;
+using log4net.Config;
+using System.Reflection;
+using System.IO;
 
 namespace PruebaParaInteresCompuesto
 {
-	public class Tests
+	public class Codigo_CInteres_Compuesto
 	{
-		CInteres_Compuesto instancia_interes_compuesto;
+		private CInteres_Compuesto instancia_interes_compuesto;
 
         [SetUp]
 		public void Setup()
