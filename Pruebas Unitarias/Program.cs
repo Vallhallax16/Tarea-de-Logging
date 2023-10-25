@@ -89,18 +89,39 @@ while (opcion != 4)
 				if(i == 0 || i == 2)
 				{
 					Console.Write("\nIngresa la coordenada en X del punto: ");
-					vertices[i] = Convert.ToInt32(Console.ReadLine());
+
+					try
+					{
+						vertices[i] = Convert.ToInt32(Console.ReadLine());
+					}
+					catch (Exception excepcion)
+					{
+						Logger_iniciado.Fatal($"Se tuvo una excepcion: {excepcion.ToString()}");	
+					}
 				}
 				else
 				{
 					Console.Write("\nIngresa la coordenada en Y del punto: ");
-					vertices[i] = Convert.ToInt32(Console.ReadLine());
+
+					try
+					{
+						vertices[i] = Convert.ToInt32(Console.ReadLine());
+					}
+					catch (Exception excepcion)
+					{
+						Logger_iniciado.Fatal($"Se tuvo una excepcion: {excepcion.ToString()}");
+					}
 				}
 			}
 
-			CVerificadora_de_Lineas_Horizontales cvdlh = new(vertices);
+			if (vertices[0] == vertices[1] && vertices[2] == vertices[3])
+			{
+				Logger_iniciado.Warn($"Los datos iguales pueden dar inconsistencias");
+			}
 
-			var es_horizontal = cvdlh.Verificadora();
+			CVerificadora_de_Lineas_Horizontales verificadora_de_lineas = new(vertices, Logger_iniciado);
+
+			var es_horizontal = verificadora_de_lineas.Verificadora(Logger_iniciado);
 
 			if(es_horizontal)
 			{
@@ -108,7 +129,7 @@ while (opcion != 4)
 			}
 			else
 			{
-				Console.WriteLine("\nLos puntos dados NO corresponden a una línea horizontal");
+				Logger_iniciado.Error("No se introdujeron los datos de una linea horizontal");
 			}
 
 			Console.WriteLine("\nPresiona enter para continuar...");
