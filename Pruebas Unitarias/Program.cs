@@ -57,6 +57,11 @@ while (opcion != 4)
 			//Reporta el número de iteraciones producidas
 			Logger_iniciado.Debug($"El usuario introdujo {iteraciones} iteraciones");
 
+			if (iteraciones < 0)
+			{
+				Logger_iniciado.Error($"El usuario introdujo un multiplicador negativo: {iteraciones}");
+			}
+
 			CInteres_Compuesto interes_compuesto = new(iteraciones);
 
 			Console.Write("Introduce la cantidad de dinero a invertir: ");
