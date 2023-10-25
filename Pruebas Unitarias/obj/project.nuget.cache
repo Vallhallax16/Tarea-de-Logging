@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lFumt4yViI+yJT3YZLcmEyFq5XthfVkINg4zO3tTYI5E8b5np7d2dWPZ7msgWCv/KMGlz0D/tHxRXKE+dKlUdA==",
+  "dgSpecHash": "YB7i+muzL+QK4eyIGXbH0SX7UDpPv4Yg3FCghi7K7fkXuQLqL39rvjSIRakQBtkwvnrMB8yNfl/by5polFuQOw==",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj",
+  "projectFilePath": "D:\\Universidad\\Temp\\Tarea GitHub Ana\\Tarea-de-Logging\\Pruebas Unitarias\\Pruebas Unitarias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
