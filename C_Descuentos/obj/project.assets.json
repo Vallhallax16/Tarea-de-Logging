@@ -1310,11 +1310,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Descuentos\\C_Descuentos.csproj",
+      "projectUniqueName": "D:\\Universidad\\Temp\\Tarea GitHub Oscar\\Tarea-de-Logging\\C_Descuentos\\C_Descuentos.csproj",
       "projectName": "C_Descuentos",
-      "projectPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Descuentos\\C_Descuentos.csproj",
+      "projectPath": "D:\\Universidad\\Temp\\Tarea GitHub Oscar\\Tarea-de-Logging\\C_Descuentos\\C_Descuentos.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\C_Descuentos\\obj\\",
+      "outputPath": "D:\\Universidad\\Temp\\Tarea GitHub Oscar\\Tarea-de-Logging\\C_Descuentos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio Compartidos\\NuGetPackages"
@@ -1336,8 +1336,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj": {
-              "projectPath": "D:\\Universidad\\7mo semestre\\Arquitectura Software\\Tarea de pruebas unitarias\\GitClone\\TareaDePruebasUnitarias\\Pruebas Unitarias\\Pruebas Unitarias.csproj"
+            "D:\\Universidad\\Temp\\Tarea GitHub Oscar\\Tarea-de-Logging\\Pruebas Unitarias\\Pruebas Unitarias.csproj": {
+              "projectPath": "D:\\Universidad\\Temp\\Tarea GitHub Oscar\\Tarea-de-Logging\\Pruebas Unitarias\\Pruebas Unitarias.csproj"
             }
           }
         }
