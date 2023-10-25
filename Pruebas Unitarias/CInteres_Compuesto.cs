@@ -22,7 +22,14 @@ namespace Pruebas_Unitarias
 
 			for(int i = 0; i < iteraciones; i++) 
 			{
-				interes_compuesto *= multiplicador;
+				try
+				{
+					interes_compuesto *= multiplicador;
+				}
+				catch (Exception expecion)
+				{
+					Logger.Fatal($"Hubo una excepción que rompió el programa {expecion.ToString()}");
+				}
 			}
 
 			var ganancias = interes_compuesto - monto_inicial;
@@ -30,8 +37,10 @@ namespace Pruebas_Unitarias
 			//Reporta al desarrollador si el usuario introdujo un multiplicador erroneo
 			if(ganancias <= 0)
 			{
-				Logger.Warn($"El usuario introdujo {multiplicador} puede causar errores\n");
+				Logger.Warn($"El usuario introdujo un multiplicador {multiplicador}, puede causar errores\n");
 			}
+
+			Logger.Info("La función Obtener_ganancias está por retornar un valor");
 
 			return ganancias;
 		}
