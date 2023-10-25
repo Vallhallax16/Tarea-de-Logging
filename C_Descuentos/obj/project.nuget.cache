@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "demyBgLMQc+f+5XdMdo49cM8xvsM1XzoS+GQ6rcOBOlAxA/6+o0SiOzmfQ2FvY4KZeWWXMT5cyJhbs0Gh4BkZA==",
+  "dgSpecHash": "2pVNklNU9x0hf0ZBlknnkOyfZOflH7T7LZoLgV5jpYCDE/ldR4wDwkPIbYgj0s6YkD2MhTHwKr7twCVmVYVoCw==",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\Temp\\Tarea GitHub Oscar\\Tarea-de-Logging\\C_Descuentos\\C_Descuentos.csproj",
+  "projectFilePath": "D:\\Universidad\\Temp\\Tarea GitHub Ana\\Tarea-de-Logging\\C_Descuentos\\C_Descuentos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",

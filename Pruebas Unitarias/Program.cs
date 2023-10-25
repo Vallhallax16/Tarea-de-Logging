@@ -37,12 +37,29 @@ while (opcion != 4)
 			calculo_descuento.Cantidad_vieja = Convert.ToDecimal(Console.ReadLine());
 
 			Console.Write("\nIntroduce el descuento a realizar a dicha cantidad: ");
-			calculo_descuento.Porcentaje_viejo = Convert.ToInt32(Console.ReadLine());
+			try
+			{
+				calculo_descuento.Porcentaje_viejo = Convert.ToInt32(Console.ReadLine());
+			}
+			catch (Exception excepcion)
+			{
+				Logger_iniciado.Error($"Se tuvo una exepcion del tipo: {excepcion.ToString()}");
+			}
 
 			Console.Write("\nIntroduce el nuevo descuento a realizar a dicha cantidad: ");
-			var nuevo_porcentaje = Convert.ToInt32(Console.ReadLine());
 
-			var resultado = calculo_descuento.Comparar_descuentos(calculo_descuento.Calculo_Dinero_Descontado(nuevo_porcentaje));
+			int nuevo_porcentaje = 0;
+
+			try
+			{
+				nuevo_porcentaje = Convert.ToInt32(Console.ReadLine());
+			}
+			catch (Exception excepcion)
+			{
+				Logger_iniciado.Fatal($"La excepción ha roto el programa: {excepcion.ToString()}");
+			}
+
+			var resultado = calculo_descuento.Comparar_descuentos(calculo_descuento.Calculo_Dinero_Descontado(nuevo_porcentaje,Logger_iniciado),Logger_iniciado);
 
 			Console.WriteLine($"\nResultado de la función: {resultado}");
 
