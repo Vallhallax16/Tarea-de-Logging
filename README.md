@@ -15,7 +15,7 @@ Y los niveles que puede tomar son:
 
 Líneas agregadas al código:
 
-Para la Clase de descuento
+Para la Clase de descuento:
   -Logging.Info("El método fue llamado y está por retornar un valor");
    Línea de logging de control, para saber que el método Calculo_Dinero_Descontado se ejecutó.
 
@@ -31,5 +31,20 @@ Para la Clase de descuento
   -Logger_iniciado.Fatal($"La excepción ha roto el programa: {excepcion.ToString()}");
    Notifica al desarrollador que los cálculos no se pueden hacer porque el problema se ha roto.
 
+Para la Clase Interés compuesto:
+  -Logging.Info
+   Línea de logging de control, para saber que el método Calculo_Dinero_Descontado se ejecutó.
 
-   
+  -Logger_iniciado.Debug($"El usuario introdujo {iteraciones} iteraciones");
+   Línea para observar el dato sensible que el usuario introdujo.
+  -Logger_iniciado.Debug($"El usuario introdujo: Dinero = {dinero:C} Multiplicador = {multiplicador}\n");
+   Línea para observar los datos enviados al método Obtener_Ganancias.
+
+  -Logger.Warn($"El usuario introdujo un multiplicador {multiplicador}, puede causar errores\n");
+   Se le notifica al desarrollador que el multiplicador puede dar datos incorrectos.
+
+  -Logger_iniciado.Error($"El usuario introdujo un multiplicador negativo: {iteraciones}");
+   Notifica al desarrollador que un dato ingresado (iteraciones) dará un error en los cálculos.
+
+  -Logger.Fatal($"Hubo una excepción que rompió el programa {expecion.ToString()}");
+   Notifica al desarrollador que los cálculos desbordan el tipo de dato y el programa crashea.
