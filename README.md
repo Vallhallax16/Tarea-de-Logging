@@ -32,8 +32,8 @@ Para la Clase de descuento:
    Notifica al desarrollador que los cálculos no se pueden hacer porque el problema se ha roto.
 
 Para la Clase Interés compuesto:
-  -Logging.Info
-   Línea de logging de control, para saber que el método Calculo_Dinero_Descontado se ejecutó.
+  -Logger.Info("La función Obtener_ganancias está por retornar un valor");
+   Línea de logging de control, ayuda a saber en qué momento la función regresará un valor
 
   -Logger_iniciado.Debug($"El usuario introdujo {iteraciones} iteraciones");
    Línea para observar el dato sensible que el usuario introdujo.
