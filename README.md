@@ -48,3 +48,19 @@ Para la Clase Interés compuesto:
 
   -Logger.Fatal($"Hubo una excepción que rompió el programa {expecion.ToString()}");
    Notifica al desarrollador que los cálculos desbordan el tipo de dato y el programa crashea.
+
+   Para la Clase Verificadora de líneas:
+  -Logging.Info("Se ha llamado al constructor de la clase");
+   Línea de logging de control, notifica que el constructor de la clase se llamó.
+
+  -Logging.Debug($"Valores recibidos del array: {Vertices[0]},{Vertices[1]},{Vertices[2]},{Vertices[3]}\n");
+   Línea para mostrar los datos que llegaron al método Verificadora.
+
+  -Logger_iniciado.Warn($"Los datos iguales pueden dar inconsistencias");
+   Se notifica que los datos iguales pueden dar un resultado no esperado pero calculable.
+
+  -Logger_iniciado.Error("No se introdujeron los datos de una linea horizontal");
+   Notifica que se llegó a un flujo no contemplado y que arrojará un error.
+
+  -Logger_iniciado.Fatal($"Se tuvo una excepcion: {excepcion.ToString()}");	
+   Notifica al desarrollador que los datos ingresados crashearon el programa
